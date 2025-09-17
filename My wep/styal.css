@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(img/miror.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    width: 80px;
+}
+
+.head1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    flex-wrap: nowrap;
+}
+
+.body2 {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.vs {
+    border: none;
+    border-left: 2px solid;
+    height: 70vh;
+    color: black;
+}
+
+.na {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    left: 10%;
+    gap: 50px;
+}
+
+.ha {
+    font-size: 80px;
+}
+
+.pa {
+    font-size: 15px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(209, 13, 13, 0.473);
+    color: white;
+}
+
+button:hover {
+    background: red;
+    width: 180px;
+    height: 60px;
+}
+
+.na1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    left: 60%;
+}
+
+.na,
+.na1 {
+    background-image: linear-gradient(#111111cc), url(img/v3.png);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    border-radius: 50px;
+    color: white;
+}
+
+.na:hover,
+.na1:hover {
+    background-image: url(img/v3.png);
+    color: red;
+    height: 80%;
+}
+
+.flot {
+    width: 100%;
+    height: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ico2:hover {
+    width: 40px;
+    height: 35px;
+
+}
+h4{
+    color:yellow ;
+}
+.bk {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    text-decoration: none;
+    background: red;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+.bk:hover {
+    opacity: 1;
+}
