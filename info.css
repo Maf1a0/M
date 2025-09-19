@@ -162,7 +162,7 @@ h4 {
     .p1 {
         display: flex;
         width: 80%;
-        height: 80%;
+        height: 100%;
         align-items: center;
         flex-direction: column;
 
@@ -170,7 +170,7 @@ h4 {
 
     .p2 {
         display: flex;
-        height: 80%;
+        height: 100%;
         align-items: center;
         flex-direction: column;
     }
@@ -179,7 +179,7 @@ h4 {
         display: flex;
         align-items: center;
        width: 80%;
-        height: 80%;
+        height: 100%;
 
         flex-direction: column;
 
