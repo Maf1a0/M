@@ -207,4 +207,9 @@ h4 {
     .bk{
         top: 2%;
     }
+
+
+    .img1{
+        display: none;
+    }
 }
